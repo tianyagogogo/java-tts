@@ -70,7 +70,7 @@ public class EdgeTtsController {
         if(osName.contains("win")){
             path ="D:/";
         }
-        return path
+        return path;
     }
 
     private Voice getVoice(String v) {
