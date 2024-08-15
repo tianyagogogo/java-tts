@@ -1,1 +1,4 @@
-spring.application.name=tts
+server:
+  servlet:
+    context-path: /tts
+  port: 20039
